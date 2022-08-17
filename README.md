@@ -1,4 +1,4 @@
-![noted Logo](/Icons/noted-2.png)
+![noted Logo](/Icons/small_Logo.png)
 
 # noted
 
