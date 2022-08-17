@@ -1,4 +1,4 @@
-<img src='/Icons/small_Logo' width='75' height='75'>
+![noted Logo](/Icons/noted-2.png)
 
 # noted
 
