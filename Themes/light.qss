@@ -1,0 +1,198 @@
+            QDialog {
+                background-color: #F3F3F3;
+            }
+
+            QMainWindow {
+                background-color: #F3F3F3;
+            }
+
+            QPushButton {
+                font-family: 'Consolas' 'Ubuntu Regular';
+                color: #989797;
+                font-size: 20px;
+                background-color: #E1DFE2;
+                border: solid; 
+                border-color: #E1DFE2;
+                border-radius: 10px;
+                min-height: 25px;
+                icon-size: 20px;
+                text-align: left;
+                padding: 10px;
+                padding-left: 15px;
+            }
+
+            QPushButton:hover{
+                font-family: 'Consolas' 'Ubuntu Regular';
+                background-color: #CDCDCD;
+                border: solid; 
+                border-color: #CDCDCD;
+                border-radius: 10px;
+                min-height: 50px;
+            }
+
+            QPushButton#settings {
+                font-family: 'Consolas' 'Ubuntu Regular';
+                background-color: #F3F3F3;
+                border: solid #F3F3F3;
+                border-radius: 0px;
+                padding-left: 15px;
+                text-align: left;
+                min-height: 50px;
+                max-width: 150px;
+            }
+
+            QPushButton#settings:hover {
+                background-color: #CDCDCD;
+                border: solid;
+                border-radius: 0px;
+                min-height: 50px;
+            }
+
+            QPushButton#settings:checked {
+                font-family: 'Consolas' 'Ubuntu Regular';
+                background-color: #CDCDCD;
+                border: 2px solid;
+                border-color: #A500DF;
+                border-left-width: 2px;
+                border-top-width: 0px;
+                border-right-width: 0px;
+                border-bottom-width: 0px;
+                border-radius: 0px;
+                min-height: 50px;
+            }
+
+            QLabel {
+                font-family: "Consolas";
+                font-size: 15px;
+                color: #676767;
+                background-color: #F3F3F3;
+                padding: 3px;
+            }
+
+            QWidget#spacer {
+                background-color: #E1DFE2;
+                padding: 3.5px;
+            }
+
+            QToolBar {
+                background-color: #E1DFE2;
+                border: solid;
+                border-color: #A500DF;
+                border-style: solid;
+                border-left-width: 0px;
+                border-top-width: 0px;
+                border-right-width: 0px;
+                border-bottom-width: 2px;
+                padding: 10px;
+            }
+
+            QToolBar QToolButton{
+                min-height: 25px;
+                min-width: 25px;
+                background-color: #E1DFE2;
+            }
+            
+            QToolBar QToolButton:hover{
+                border: 2px solid;
+                border-color: #CDCDCD;
+                border-radius: 6px;
+                min-height: 25px;
+                min-width: 25px;
+                background-color: #CDCDCD;
+            }
+
+            QTextEdit {
+                font-family: 'Consolas' 'Ubuntu Regular';
+                background-color: #F3F3F3;
+                border: none;
+                color: #7E7E7E;
+                font-size: 15px;
+                padding-top: 25px;
+                padding-left: 35px;
+                padding-right: 35px;
+                selection-background-color: #A500DF;
+                selection-color: #ffffff;
+            }
+
+            QTextEdit#Output {
+                background-color: #F3F3F3;
+                border-style: solid;
+                border-left-width: 1.5px;
+                border-top-width: 0px;
+                border-right-width: 0px;
+                border-bottom-width: 0px;
+                border-color: #7E7E7E;
+            }
+
+            QToolTip {
+                background-color: #1E1E1E;
+                color: #7E7E7E;
+                padding: 5px;
+                font-size: 15px;
+                font-family: 'Consolas' 'Ubuntu Regular';
+                font: bold;
+            }
+
+            QLabel#doc { 
+                font: bold;
+                font-size: 20px;
+                color: #676767;
+                background-color: #E1DFE2;
+            }
+
+            QComboBox {
+                font-family: 'Consolas' 'Ubuntu Regular';
+                font-size: 12px;
+                color: #676767;
+                background-color: #E1DFE2;
+                border: 2px solid;
+                border-radius: 5px;
+                border-color: #E1DFE2;
+                font-size: 15px;
+                padding: 5px;
+            }
+
+            QComboBox:on {
+                border: 2px solid;
+                border-radius: 5px;
+                border-color: #A500DF;
+            }
+
+            QComboBox QAbstractItemView {
+                border: solid;
+                border-radius: 10px;
+                background-color: #E1DFE2;
+                color: #676767;
+                font-family: 'Consolas' 'Ubuntu Regular';
+                selection-background-color: #A500DF;
+                padding: 5px;
+            }
+
+            QComboBox::drop-down {
+                border: none;
+            }
+
+            QComboBox::down-arrow {
+                image: url(Icons/Down.png);
+                border: none;
+                min-width: 10px;
+                min-height: 10px;
+            }
+            
+            QTextEdit QScrollBar {
+                background-color: #E1DFE2;
+                border: 1px solid;
+                border-color: #E1DFE2;
+            }
+
+            QTextEdit QScrollBar::handle {
+                background-color: #7E7E7E;
+                border: solid #7E7E7E;
+                border-radius: 10px;
+            }
+
+            QTextEdit QScrollBar::down-button {
+                image: url('Icons/Down.png');
+                border: solid;
+                border-radius: 10px;
+            }
